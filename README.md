@@ -8,6 +8,8 @@ Welcome to Nougatbot a chat bot discord.
 3. [Collaboration](#collaboration)
 4. [FAQs](#faqs)
 
+## Technologies
+***
 A list of technologies used in the project:
 * [Python]: Version 3.8
 * [Library]: os, nltk, discord, dotenv, pymongo, random
