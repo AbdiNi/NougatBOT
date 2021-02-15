@@ -27,11 +27,11 @@ To use the application in a special environment use ```Python nougatbot.py``` to
 
 This project have five collaborators :
 
-Sacia houioua
-hachem mosbah
-ines dridi
-nidhal abdi
-bassem bhiri
+* Sacia houioua
+* hachem mosbah
+* ines dridi
+* nidhal abdi
+* bassem bhiri
 
 ## FAQs
 ***
