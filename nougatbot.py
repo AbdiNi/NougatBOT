@@ -101,26 +101,6 @@ async def on_message(message):
         
         else: await message.channel.send('sorry, i don\'t have an answer for this question' )
 
-        #quest = message.content  # a taper sur discord
-        #question = "^"+ quest[0:200]
-   
-        # myquery = { "question": { "$regex": question } }
-        # mydoc = mycol.find(myquery)
-        # ansID = 0
-        # for x in mydoc:
-        #     print(x['question'])
-        #     ansID = x['AcceptedAnswerId']
-
-        # if ansID !=0 : 
-
-        #     myquery = { "_id": ansID }
-        #     mydoc = mycol.find(myquery)
-        #     for x in mydoc:
-        #         reponse = x['response']
-        #         if (len(reponse)>1999) : 
-        #             reponse = reponse[0:1999]
-        #         await message.channel.send(reponse)
-        #         ansID = 0
 
     
-client.run('ODA4OTkwOTg3Mjk2NDQwMzYw.YCOlkQ.9BsXAfC02LhCzV3eBS3rSoRcZxw')
+client.run('ODA4OTkwOTg3Mjk2NDQwMzYw.YCOlkQ.RWX_g18z_y7HeWw5838HFbndpbk')
