@@ -10,7 +10,7 @@ Welcome to Nougatbot a chat bot discord.
 
 A list of technologies used in the project:
 * [Python]: Version 3.8
-* [Library]: os, nltk, discord, dotenv, pymongo, random
+* [Library]: os, nltk, discord, dotenv, pymongo, random, googletrans, joblib
 
 ## Installation
 ***
@@ -27,11 +27,11 @@ To use the application in a special environment use ```Python nougatbot.py``` to
 
 This project have five collaborators :
 
-* Sacia houioua
+* bassem bhiri
 * hachem mosbah
 * ines dridi
 * nidhal abdi
-* bassem bhiri
+* Sacia houioua
 
 ## FAQs
 ***
