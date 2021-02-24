@@ -7,12 +7,12 @@ from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
-client = pymongo.MongoClient("mongodb://localhost:27017/")
+client = pymongo.MongoClient("mongodb+srv://africa:africa2021@bot.cb1sv.mongodb.net/NougatBD2?retryWrites=true&w=majority")
 
 mydb = client["NougatBD2"]
 mycols = [mydb["astro2"],mydb["bioinfo"],mydb["datascience"]]
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+myclient = pymongo.MongoClient("mongodb+srv://africa:africa2021@bot.cb1sv.mongodb.net/NougatBD2?retryWrites=true&w=majority")
 mydb = myclient["NougatBD2"]
 
 myquery1 = { "PostTypeId": 1 }

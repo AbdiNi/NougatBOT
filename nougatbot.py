@@ -8,13 +8,11 @@ from conversationnel import*
 from nltk.chat.util import Chat, reflections
 import datetime
 import pytz
-import xml.etree.ElementTree as ET
 import pymongo
-import html2markdown
 
-from lxml import etree
-from collections import defaultdict
-client = pymongo.MongoClient("mongodb://localhost:27017/")
+
+
+client = pymongo.MongoClient("mongodb+srv://africa:africa2021@bot.cb1sv.mongodb.net/NougatBD2?retryWrites=true&w=majority")
 mydb = client["NougatBD2"]
 
 mycolFD_score = mydb["Feedbac_S"]

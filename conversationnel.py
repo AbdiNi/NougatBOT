@@ -17,7 +17,7 @@ pairs = [
         ["Ihits alright","Its OK, never mind",]
     ],
     [
-        r"hi|hey|hello",
+        r"hi|hey|hello|good morning",
         ["Hello", "Hey there",]
     ],
         
@@ -32,18 +32,31 @@ pairs = [
     ],
 
     [
-        r"thank you|thanks?",
+        r"thank you|thanks|good|good thanks|ok",
         ["you are welcome ! ",]
     ],
 
     [
-        r"/help",
-        [''' ``` To help us to improve our BOT, Please proceed as below :
-        !user [Name] : to tell your name 
-        !sat [score] : to give your score
-        !imp [improvement_proposal] : to propose an improvement
-        !date : to show the actual date&time ```
-        ''',
-        ]
+        r"good|we are good",
+        ["that's nice ! ",]
     ],
+    
 ]
+
+
+msg_help =  ''' ``` To help us to improve our BOT, Please proceed as below : 
+!score [score] : to give your score (from 0 to 10)
+!improvement [improvement_proposal] : to propose an improvement
+!date now : to show the actual date&time 
+
+Pour nous aider à améliorer notre BOT, veuillez procéder comme ci-dessous:
+!score [score] : Pour donner un score (de 0 à 10)
+!improvement [improvement_proposal] : Pour proposer une amélioration
+!date now : Pour afficher l'heure&date actuelle 
+
+:لمساعدتنا على تطوير هذا المنتوج، يرجى القيام بما يلي
+!score [عدد] : لإعطاء تقييم
+!improvement [إقتراح] : لإقتراح تطوير أو تحسين
+!date now : لعرض الوقت والتاريخ الحاليين
+``` 
+'''
